@@ -55,3 +55,9 @@ fourth_list.remove(4)
 print("Ecco la lista senza il numero \"4\":", fourth_list)
 del fourth_list[0]
 print("Ecco la lista senza il primo elemento:", fourth_list)
+
+#Per ricavare l'indice di un'elemento nella lista si utilizza il comando: <Nome Lista>.index(elemento)
+
+print("Ottavo Print:")
+fifth_list = ["ciao","mi","chiamo","paolo"]
+print("La parola \"mi\" è in posizione:", fifth_list.index("mi"))
