@@ -56,5 +56,3 @@ except TypeError:
     print("Sono entrato nell'except")
 finally:
     print("Avanti (parte 2)") 
-
-            
