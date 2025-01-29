@@ -8,12 +8,10 @@ from tkinter import *
 
 window = Tk()
 
-text_pack = Label(window, 
-                  text="This is a text positioned with the function '.pack()'")
+text_pack = Label(window, text="This is a text positioned with the function '.pack()'")
 text_pack.pack()
 
-text_coordinates = Label(window, 
-                         text="This is a text positioned with coordinates")
+text_coordinates = Label(window, text="This is a text positioned with coordinates")
 text_coordinates.place(x=50,y=50)
 
 
