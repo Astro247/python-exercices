@@ -51,6 +51,7 @@ def increase_number():
     COUNT += 1
     show_counting.config(text=COUNT)
 
+
 button.config(command=increase_number)
 show_counting = Label(window, text=COUNT, font=("Arial", 40))
 show_counting.pack()
