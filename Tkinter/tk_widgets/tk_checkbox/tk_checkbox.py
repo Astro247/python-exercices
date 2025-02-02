@@ -23,9 +23,14 @@ window_checkbox.geometry("250x100")
 check = IntVar() #definisce la variabile check come intero
 
 checkbox = Checkbutton(window_checkbox, text="This is a test", variable=check, onvalue=1, offvalue=0, command=test) 
+
+#Nel codice sottostante con la funzione .config e gli argomenti "font", "bg" e "fg" viene modificata l'area di testo
+
 checkbox.config(font=("Helvetica", 20))
 checkbox.config(bg="Black", activebackground="Black")
 checkbox.config(fg="White", activeforeground="White")
+
+#Con la funzione PhotoImage() viene aggiunta un'immagine accanto al testo
 
 coffee_cup = PhotoImage(file="coffee_cup.png")
 checkbox.config(image=coffee_cup, compound="right")
